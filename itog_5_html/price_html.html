@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(78, 161, 203);
+            color: #d2dbd5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        div{
+            background-image: url(https://w.forfun.com/fetch/27/2793be258de560bc7ec4bbd4b5f158b5.jpeg);
+            background-repeat: no-repeat;
+            height: 250px;
+            opacity: 85%;
+        }
+        div h1{
+            text-align: center;
+            padding: 4em;
+            font-weight: 200;
+        }
+        .wrapper{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        table{
+            margin: 0 auto;
+            font-size: 16.5pt;
+        }
+        table, th, td{
+            border: 1px solid rgb(5, 115, 161);
+            border-collapse: collapse;
+        }
+        tr{
+            background-color: rgba(82, 199, 242, 0.6);
+        }
+        caption{
+            font-weight: 800;
+        }
+        .f1{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section class="wrapper">
+        <div>
+            <h1 text-align="center">НАШ ПРАЙС-ЛИСТ</h1>
+        </div>
+        
+        <table>
+            <caption>Цены</caption>
+            <tr class="a1">
+                <th>Название ролла</th>
+                <th>Гр.</th>
+                <th colspan="2">Состав</th>
+                <th>Цена</th>
+            </tr>
+            <tr class="a2">
+                <td>Бонито с лососем</td>
+                <td> 210 </td>
+                <td colspan="2">Лосось, сливочный сыр, стружка тунца, огурец</td>
+                <td>510р.</td>
+            </tr>
+            <tr class="a3">
+                <td>Дабл</td>
+                <td>200</td>
+                <td colspan="2">Сливочный сыр, лосось, огурец, соус дабл</td>
+                <td>450р.</td>
+            </tr>
+            <tr class="a4">
+                <td>Саломон ролл</td>
+                <td>240</td>
+                <td colspan="2">Сыр, огурец, тунец, угорь(8шт)</td>
+                <td>499р.</td>
+            </tr>
+            <tr class="a5">
+                <td>Ролл дракон</td>
+                <td> 220 </td>
+                <td colspan="2">Лосось, огурец, снежный краб, угорь(8шт)/td>
+                <td>419р.</td>
+            <tr class="a6">
+                <td>Чикен Ролл </td>
+                <td>200</td>
+                <td colspan="2">Курица, омлет, спайси соус, кунжут(8шт)</td>
+                <td>279р.</td>
+            <tr class="a7">
+                <td>Цезарь Ролл</td>
+                <td>225</td>
+                <td colspan="2">Курица, сыр Моцарелла, айсберг, майфонез </td>
+                <td>279р.</td>
+            <tr class="a8">
+                <td>Ролл Эби</td>
+                <td>210</td>
+                <td colspan="2">Сыр, огурец, креветка, масаго/td>
+                <td>339р.</td>
+            <tr class="a9">
+                <td>Унаги Фьюжен</td>
+                <td>235</td>
+                <td colspan="2">Японский омлет, сливочный сыр, угорь, соус спайси</td>
+                <td>439р.</td>
+            </tr>
+        </table>
+        <fieldset class="f1">
+            <legend>Вы находитесь в городе Ликино-Дулёво?</legend>
+            <input type="checkbox" name="correctly" value="c"> Верно
+            <input type="checkbox" name="incorrectly" value="i"> Неверно
+        </fieldset>
+        <p>Выберите тип доставки</p>
+        <select id="present">
+            <option value="coca">Курьер</option>
+            <option value="fanta">Самовывоз</option>
+        </select>
+        <h3>Наш менеджер свяжется с вами</h3>
+        <form action="">
+            <fieldset>
+                <legend>Личные данные клиента</legend>
+                <input type="text" placeholder="ФИО" required> <br><br>
+                <input type="text" placeholder="+79267930480" required> <br><br>
+                <input type="text" placeholder="Адрес" required> <br><br>
+                <input type="button" name="send" value="Отправить">
+                <input type="reset" name="res" value="Очистить"> <br><br>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
